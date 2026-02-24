@@ -1,0 +1,1636 @@
+{
+  "customers": [
+    {
+      "Id": 1,
+      "AvgSpend": 850,
+      "VisitFrequency": 8,
+      "DiscountUsage": 1200
+    },
+    {
+      "Id": 2,
+      "AvgSpend": 1200,
+      "VisitFrequency": 5,
+      "DiscountUsage": 800
+    },
+    {
+      "Id": 3,
+      "AvgSpend": 650,
+      "VisitFrequency": 10,
+      "DiscountUsage": 1500
+    },
+    {
+      "Id": 4,
+      "AvgSpend": 1500,
+      "VisitFrequency": 3,
+      "DiscountUsage": 400
+    },
+    {
+      "Id": 5,
+      "AvgSpend": 980,
+      "VisitFrequency": 6,
+      "DiscountUsage": 950
+    },
+    {
+      "Id": 6,
+      "AvgSpend": 720,
+      "VisitFrequency": 7,
+      "DiscountUsage": 1100
+    },
+    {
+      "Id": 7,
+      "AvgSpend": 2000,
+      "VisitFrequency": 2,
+      "DiscountUsage": 200
+    },
+    {
+      "Id": 8,
+      "AvgSpend": 540,
+      "VisitFrequency": 12,
+      "DiscountUsage": 1800
+    },
+    {
+      "Id": 9,
+      "AvgSpend": 1100,
+      "VisitFrequency": 4,
+      "DiscountUsage": 600
+    },
+    {
+      "Id": 10,
+      "AvgSpend": 760,
+      "VisitFrequency": 9,
+      "DiscountUsage": 1400
+    },
+    {
+      "Id": 11,
+      "AvgSpend": 890,
+      "VisitFrequency": 7,
+      "DiscountUsage": 1000
+    },
+    {
+      "Id": 12,
+      "AvgSpend": 1340,
+      "VisitFrequency": 3,
+      "DiscountUsage": 300
+    },
+    {
+      "Id": 13,
+      "AvgSpend": 600,
+      "VisitFrequency": 11,
+      "DiscountUsage": 1700
+    },
+    {
+      "Id": 14,
+      "AvgSpend": 1750,
+      "VisitFrequency": 2,
+      "DiscountUsage": 250
+    },
+    {
+      "Id": 15,
+      "AvgSpend": 980,
+      "VisitFrequency": 6,
+      "DiscountUsage": 850
+    },
+    {
+      "Id": 16,
+      "AvgSpend": 730,
+      "VisitFrequency": 8,
+      "DiscountUsage": 1200
+    },
+    {
+      "Id": 17,
+      "AvgSpend": 2100,
+      "VisitFrequency": 1,
+      "DiscountUsage": 100
+    },
+    {
+      "Id": 18,
+      "AvgSpend": 560,
+      "VisitFrequency": 13,
+      "DiscountUsage": 1900
+    },
+    {
+      "Id": 19,
+      "AvgSpend": 1250,
+      "VisitFrequency": 4,
+      "DiscountUsage": 500
+    },
+    {
+      "Id": 20,
+      "AvgSpend": 820,
+      "VisitFrequency": 9,
+      "DiscountUsage": 1300
+    }
+  ],
+  "orders": [
+    {
+      "Id": 1,
+      "Date": "2026-02-12T13:22:00",
+      "TotalAmount": 1250,
+      "NetAmount": 1180,
+      "Discount": 100,
+      "Tax": 30,
+      "Status": "Completed",
+      "ProcessingTime": "00:12:34",
+      "PaymentMethod": "UPI",
+      "CustomerId": 1,
+      "RefundAmount": 0,
+      "Items": [
+        {
+          "ItemName": "Paneer Tikka",
+          "Quantity": 2,
+          "Revenue": 600
+        },
+        {
+          "ItemName": "Butter Naan",
+          "Quantity": 4,
+          "Revenue": 400
+        },
+        {
+          "ItemName": "Cold Drink",
+          "Quantity": 2,
+          "Revenue": 250
+        }
+      ]
+    },
+    {
+      "Id": 2,
+      "Date": "2026-02-14T20:10:00",
+      "TotalAmount": 900,
+      "NetAmount": 870,
+      "Discount": 50,
+      "Tax": 20,
+      "Status": "Completed",
+      "ProcessingTime": "00:09:21",
+      "PaymentMethod": "Cash",
+      "CustomerId": 2,
+      "RefundAmount": 0,
+      "Items": [
+        {
+          "ItemName": "Veg Biryani",
+          "Quantity": 2,
+          "Revenue": 700
+        },
+        {
+          "ItemName": "Raita",
+          "Quantity": 1,
+          "Revenue": 200
+        }
+      ]
+    },
+    {
+      "Id": 3,
+      "Date": "2026-02-16T19:45:00",
+      "TotalAmount": 1500,
+      "NetAmount": 1400,
+      "Discount": 150,
+      "Tax": 50,
+      "Status": "Refunded",
+      "ProcessingTime": "00:15:11",
+      "PaymentMethod": "Card",
+      "CustomerId": 3,
+      "RefundAmount": 300,
+      "Items": [
+        {
+          "ItemName": "Pizza Large",
+          "Quantity": 2,
+          "Revenue": 1200
+        },
+        {
+          "ItemName": "Garlic Bread",
+          "Quantity": 1,
+          "Revenue": 300
+        }
+      ]
+    },
+    {
+      "Id": 51,
+      "Date": "2026-02-20T12:15:00",
+      "TotalAmount": 1800,
+      "NetAmount": 1700,
+      "Discount": 120,
+      "Tax": 40,
+      "Status": "Completed",
+      "ProcessingTime": "00:10:45",
+      "PaymentMethod": "Digital",
+      "CustomerId": 4,
+      "RefundAmount": 0,
+      "Items": [
+        {
+          "ItemName": "Sizzler",
+          "Quantity": 2,
+          "Revenue": 1200
+        },
+        {
+          "ItemName": "Mocktail",
+          "Quantity": 2,
+          "Revenue": 600
+        }
+      ]
+    },
+    {
+      "Id": 52,
+      "Date": "2026-02-25T21:05:00",
+      "TotalAmount": 2200,
+      "NetAmount": 2100,
+      "Discount": 150,
+      "Tax": 50,
+      "Status": "Completed",
+      "ProcessingTime": "00:11:30",
+      "PaymentMethod": "Card",
+      "CustomerId": 5,
+      "RefundAmount": 0,
+      "Items": [
+        {
+          "ItemName": "Family Combo",
+          "Quantity": 1,
+          "Revenue": 2000
+        },
+        {
+          "ItemName": "Ice Cream",
+          "Quantity": 2,
+          "Revenue": 200
+        }
+      ]
+    },
+    {
+      "Id": 53,
+      "Date": "2026-02-13T14:35:00",
+      "TotalAmount": 1350,
+      "NetAmount": 1280,
+      "Discount": 70,
+      "Tax": 40,
+      "Status": "Completed",
+      "ProcessingTime": "00:11:20",
+      "PaymentMethod": "UPI",
+      "CustomerId": 6,
+      "RefundAmount": 0,
+      "Items": [
+        {
+          "ItemName": "Hakka Noodles",
+          "Quantity": 2,
+          "Revenue": 800
+        },
+        {
+          "ItemName": "Manchurian",
+          "Quantity": 1,
+          "Revenue": 550
+        }
+      ]
+    },
+    {
+      "Id": 54,
+      "Date": "2026-02-14T19:10:00",
+      "TotalAmount": 2600,
+      "NetAmount": 2450,
+      "Discount": 150,
+      "Tax": 60,
+      "Status": "Completed",
+      "ProcessingTime": "00:16:45",
+      "PaymentMethod": "Card",
+      "CustomerId": 7,
+      "RefundAmount": 0,
+      "Items": [
+        {
+          "ItemName": "Premium Thali",
+          "Quantity": 2,
+          "Revenue": 2000
+        },
+        {
+          "ItemName": "Dessert Combo",
+          "Quantity": 2,
+          "Revenue": 600
+        }
+      ]
+    },
+    {
+      "Id": 55,
+      "Date": "2026-02-15T12:50:00",
+      "TotalAmount": 780,
+      "NetAmount": 750,
+      "Discount": 30,
+      "Tax": 20,
+      "Status": "Cancelled",
+      "ProcessingTime": "00:06:40",
+      "PaymentMethod": "Cash",
+      "CustomerId": 8,
+      "RefundAmount": 780,
+      "Items": [
+        {
+          "ItemName": "Sandwich",
+          "Quantity": 3,
+          "Revenue": 780
+        }
+      ]
+    },
+    {
+      "Id": 56,
+      "Date": "2026-02-16T20:25:00",
+      "TotalAmount": 1700,
+      "NetAmount": 1600,
+      "Discount": 100,
+      "Tax": 50,
+      "Status": "Completed",
+      "ProcessingTime": "00:12:10",
+      "PaymentMethod": "Digital",
+      "CustomerId": 9,
+      "RefundAmount": 0,
+      "Items": [
+        {
+          "ItemName": "BBQ Platter",
+          "Quantity": 1,
+          "Revenue": 1200
+        },
+        {
+          "ItemName": "Cold Coffee",
+          "Quantity": 2,
+          "Revenue": 500
+        }
+      ]
+    },
+    {
+      "Id": 57,
+      "Date": "2026-02-17T18:40:00",
+      "TotalAmount": 1450,
+      "NetAmount": 1350,
+      "Discount": 100,
+      "Tax": 40,
+      "Status": "Refunded",
+      "ProcessingTime": "00:14:00",
+      "PaymentMethod": "UPI",
+      "CustomerId": 10,
+      "RefundAmount": 400,
+      "Items": [
+        {
+          "ItemName": "Pasta Alfredo",
+          "Quantity": 2,
+          "Revenue": 1000
+        },
+        {
+          "ItemName": "Garlic Bread",
+          "Quantity": 1,
+          "Revenue": 450
+        }
+      ]
+    },
+    {
+      "Id": 58,
+      "Date": "2026-02-19T13:15:00",
+      "TotalAmount": 990,
+      "NetAmount": 940,
+      "Discount": 50,
+      "Tax": 30,
+      "Status": "Completed",
+      "ProcessingTime": "00:09:55",
+      "PaymentMethod": "Cash",
+      "CustomerId": 11,
+      "RefundAmount": 0,
+      "Items": [
+        {
+          "ItemName": "South Indian Combo",
+          "Quantity": 2,
+          "Revenue": 990
+        }
+      ]
+    },
+    {
+      "Id": 59,
+      "Date": "2026-02-20T21:10:00",
+      "TotalAmount": 3100,
+      "NetAmount": 2900,
+      "Discount": 200,
+      "Tax": 80,
+      "Status": "Completed",
+      "ProcessingTime": "00:18:30",
+      "PaymentMethod": "Card",
+      "CustomerId": 12,
+      "RefundAmount": 0,
+      "Items": [
+        {
+          "ItemName": "Family Feast",
+          "Quantity": 1,
+          "Revenue": 2500
+        },
+        {
+          "ItemName": "Dessert Platter",
+          "Quantity": 1,
+          "Revenue": 600
+        }
+      ]
+    },
+    {
+      "Id": 60,
+      "Date": "2026-02-21T11:30:00",
+      "TotalAmount": 650,
+      "NetAmount": 620,
+      "Discount": 30,
+      "Tax": 15,
+      "Status": "Completed",
+      "ProcessingTime": "00:07:25",
+      "PaymentMethod": "UPI",
+      "CustomerId": 13,
+      "RefundAmount": 0,
+      "Items": [
+        {
+          "ItemName": "Mini Meal",
+          "Quantity": 2,
+          "Revenue": 650
+        }
+      ]
+    },
+    {
+      "Id": 61,
+      "Date": "2026-02-23T19:55:00",
+      "TotalAmount": 1850,
+      "NetAmount": 1750,
+      "Discount": 100,
+      "Tax": 50,
+      "Status": "Completed",
+      "ProcessingTime": "00:13:40",
+      "PaymentMethod": "Digital",
+      "CustomerId": 14,
+      "RefundAmount": 0,
+      "Items": [
+        {
+          "ItemName": "Sizzler Deluxe",
+          "Quantity": 2,
+          "Revenue": 1500
+        },
+        {
+          "ItemName": "Mocktail",
+          "Quantity": 2,
+          "Revenue": 350
+        }
+      ]
+    },
+    {
+      "Id": 62,
+      "Date": "2026-02-24T20:05:00",
+      "TotalAmount": 1200,
+      "NetAmount": 1120,
+      "Discount": 80,
+      "Tax": 35,
+      "Status": "Completed",
+      "ProcessingTime": "00:10:05",
+      "PaymentMethod": "Cash",
+      "CustomerId": 15,
+      "RefundAmount": 0,
+      "Items": [
+        {
+          "ItemName": "Chinese Combo",
+          "Quantity": 2,
+          "Revenue": 1200
+        }
+      ]
+    },
+    {
+      "Id": 63,
+      "Date": "2026-02-12T18:20:00",
+      "TotalAmount": 890,
+      "NetAmount": 840,
+      "Discount": 50,
+      "Tax": 25,
+      "Status": "Completed",
+      "ProcessingTime": "00:08:50",
+      "PaymentMethod": "UPI",
+      "CustomerId": 16,
+      "RefundAmount": 0,
+      "Items": [
+        {
+          "ItemName": "Veg Wrap",
+          "Quantity": 3,
+          "Revenue": 600
+        },
+        {
+          "ItemName": "Cold Drink",
+          "Quantity": 2,
+          "Revenue": 290
+        }
+      ]
+    },
+    {
+      "Id": 64,
+      "Date": "2026-02-13T21:10:00",
+      "TotalAmount": 2750,
+      "NetAmount": 2600,
+      "Discount": 150,
+      "Tax": 75,
+      "Status": "Completed",
+      "ProcessingTime": "00:17:35",
+      "PaymentMethod": "Card",
+      "CustomerId": 17,
+      "RefundAmount": 0,
+      "Items": [
+        {
+          "ItemName": "Luxury Platter",
+          "Quantity": 1,
+          "Revenue": 2200
+        },
+        {
+          "ItemName": "Dessert Special",
+          "Quantity": 2,
+          "Revenue": 550
+        }
+      ]
+    },
+    {
+      "Id": 65,
+      "Date": "2026-02-14T22:15:00",
+      "TotalAmount": 4200,
+      "NetAmount": 3900,
+      "Discount": 300,
+      "Tax": 100,
+      "Status": "Completed",
+      "ProcessingTime": "00:22:10",
+      "PaymentMethod": "Digital",
+      "CustomerId": 18,
+      "RefundAmount": 0,
+      "Items": [
+        {
+          "ItemName": "Valentine Special Combo",
+          "Quantity": 2,
+          "Revenue": 3500
+        },
+        {
+          "ItemName": "Premium Dessert",
+          "Quantity": 2,
+          "Revenue": 700
+        }
+      ]
+    },
+    {
+      "Id": 66,
+      "Date": "2026-02-15T13:40:00",
+      "TotalAmount": 720,
+      "NetAmount": 690,
+      "Discount": 30,
+      "Tax": 20,
+      "Status": "Cancelled",
+      "ProcessingTime": "00:06:30",
+      "PaymentMethod": "Cash",
+      "CustomerId": 19,
+      "RefundAmount": 720,
+      "Items": [
+        {
+          "ItemName": "Mini Burger",
+          "Quantity": 4,
+          "Revenue": 720
+        }
+      ]
+    },
+    {
+      "Id": 67,
+      "Date": "2026-02-17T20:05:00",
+      "TotalAmount": 1650,
+      "NetAmount": 1550,
+      "Discount": 100,
+      "Tax": 45,
+      "Status": "Refunded",
+      "ProcessingTime": "00:13:55",
+      "PaymentMethod": "UPI",
+      "CustomerId": 20,
+      "RefundAmount": 500,
+      "Items": [
+        {
+          "ItemName": "Tandoori Platter",
+          "Quantity": 1,
+          "Revenue": 1200
+        },
+        {
+          "ItemName": "Mocktail",
+          "Quantity": 2,
+          "Revenue": 450
+        }
+      ]
+    },
+    {
+      "Id": 68,
+      "Date": "2026-02-18T12:25:00",
+      "TotalAmount": 980,
+      "NetAmount": 930,
+      "Discount": 50,
+      "Tax": 30,
+      "Status": "Completed",
+      "ProcessingTime": "00:09:05",
+      "PaymentMethod": "Cash",
+      "CustomerId": 1,
+      "RefundAmount": 0,
+      "Items": [
+        {
+          "ItemName": "South Indian Thali",
+          "Quantity": 2,
+          "Revenue": 980
+        }
+      ]
+    },
+    {
+      "Id": 69,
+      "Date": "2026-02-20T19:30:00",
+      "TotalAmount": 5200,
+      "NetAmount": 4800,
+      "Discount": 400,
+      "Tax": 120,
+      "Status": "Completed",
+      "ProcessingTime": "00:25:40",
+      "PaymentMethod": "Card",
+      "CustomerId": 2,
+      "RefundAmount": 0,
+      "Items": [
+        {
+          "ItemName": "Corporate Party Pack",
+          "Quantity": 1,
+          "Revenue": 4500
+        },
+        {
+          "ItemName": "Dessert Platter",
+          "Quantity": 1,
+          "Revenue": 700
+        }
+      ]
+    },
+    {
+      "Id": 70,
+      "Date": "2026-02-21T14:15:00",
+      "TotalAmount": 1150,
+      "NetAmount": 1080,
+      "Discount": 70,
+      "Tax": 35,
+      "Status": "Completed",
+      "ProcessingTime": "00:10:45",
+      "PaymentMethod": "Digital",
+      "CustomerId": 3,
+      "RefundAmount": 0,
+      "Items": [
+        {
+          "ItemName": "Italian Pasta",
+          "Quantity": 2,
+          "Revenue": 900
+        },
+        {
+          "ItemName": "Garlic Bread",
+          "Quantity": 1,
+          "Revenue": 250
+        }
+      ]
+    },
+    {
+      "Id": 71,
+      "Date": "2026-02-23T18:50:00",
+      "TotalAmount": 1420,
+      "NetAmount": 1350,
+      "Discount": 70,
+      "Tax": 40,
+      "Status": "Completed",
+      "ProcessingTime": "00:12:25",
+      "PaymentMethod": "UPI",
+      "CustomerId": 4,
+      "RefundAmount": 0,
+      "Items": [
+        {
+          "ItemName": "Mexican Combo",
+          "Quantity": 2,
+          "Revenue": 1420
+        }
+      ]
+    },
+    {
+      "Id": 72,
+      "Date": "2026-02-25T20:45:00",
+      "TotalAmount": 2100,
+      "NetAmount": 1980,
+      "Discount": 120,
+      "Tax": 55,
+      "Status": "Completed",
+      "ProcessingTime": "00:14:10",
+      "PaymentMethod": "Card",
+      "CustomerId": 5,
+      "RefundAmount": 0,
+      "Items": [
+        {
+          "ItemName": "Seafood Special",
+          "Quantity": 2,
+          "Revenue": 1700
+        },
+        {
+          "ItemName": "Mocktail",
+          "Quantity": 2,
+          "Revenue": 400
+        }
+      ]
+    },
+    {
+      "Id": 73,
+      "Date": "2026-02-12T11:20:00",
+      "TotalAmount": 540,
+      "NetAmount": 520,
+      "Discount": 20,
+      "Tax": 15,
+      "Status": "Completed",
+      "ProcessingTime": "00:05:40",
+      "PaymentMethod": "Cash",
+      "CustomerId": 6,
+      "RefundAmount": 0,
+      "Items": [
+        {
+          "ItemName": "Tea & Snacks",
+          "Quantity": 4,
+          "Revenue": 540
+        }
+      ]
+    },
+    {
+      "Id": 74,
+      "Date": "2026-02-13T19:40:00",
+      "TotalAmount": 1850,
+      "NetAmount": 1750,
+      "Discount": 100,
+      "Tax": 50,
+      "Status": "Completed",
+      "ProcessingTime": "00:12:50",
+      "PaymentMethod": "UPI",
+      "CustomerId": 7,
+      "RefundAmount": 0,
+      "Items": [
+        {
+          "ItemName": "Punjabi Thali",
+          "Quantity": 2,
+          "Revenue": 1500
+        },
+        {
+          "ItemName": "Lassi",
+          "Quantity": 2,
+          "Revenue": 350
+        }
+      ]
+    },
+    {
+      "Id": 75,
+      "Date": "2026-02-14T20:30:00",
+      "TotalAmount": 8500,
+      "NetAmount": 8000,
+      "Discount": 500,
+      "Tax": 200,
+      "Status": "Completed",
+      "ProcessingTime": "00:28:10",
+      "PaymentMethod": "Card",
+      "CustomerId": 8,
+      "RefundAmount": 0,
+      "Items": [
+        {
+          "ItemName": "Private Party Package",
+          "Quantity": 1,
+          "Revenue": 8500
+        }
+      ]
+    },
+    {
+      "Id": 76,
+      "Date": "2026-02-15T13:05:00",
+      "TotalAmount": 620,
+      "NetAmount": 600,
+      "Discount": 20,
+      "Tax": 15,
+      "Status": "Cancelled",
+      "ProcessingTime": "00:06:10",
+      "PaymentMethod": "Cash",
+      "CustomerId": 9,
+      "RefundAmount": 620,
+      "Items": [
+        {
+          "ItemName": "Quick Lunch",
+          "Quantity": 2,
+          "Revenue": 620
+        }
+      ]
+    },
+    {
+      "Id": 77,
+      "Date": "2026-02-16T18:45:00",
+      "TotalAmount": 1420,
+      "NetAmount": 1340,
+      "Discount": 80,
+      "Tax": 40,
+      "Status": "Completed",
+      "ProcessingTime": "00:11:55",
+      "PaymentMethod": "Digital",
+      "CustomerId": 10,
+      "RefundAmount": 0,
+      "Items": [
+        {
+          "ItemName": "Chinese Combo",
+          "Quantity": 2,
+          "Revenue": 1420
+        }
+      ]
+    },
+    {
+      "Id": 78,
+      "Date": "2026-02-17T21:15:00",
+      "TotalAmount": 1750,
+      "NetAmount": 1650,
+      "Discount": 100,
+      "Tax": 50,
+      "Status": "Refunded",
+      "ProcessingTime": "00:14:35",
+      "PaymentMethod": "UPI",
+      "CustomerId": 11,
+      "RefundAmount": 450,
+      "Items": [
+        {
+          "ItemName": "BBQ Special",
+          "Quantity": 1,
+          "Revenue": 1300
+        },
+        {
+          "ItemName": "Mocktail",
+          "Quantity": 2,
+          "Revenue": 450
+        }
+      ]
+    },
+    {
+      "Id": 79,
+      "Date": "2026-02-18T12:35:00",
+      "TotalAmount": 980,
+      "NetAmount": 930,
+      "Discount": 50,
+      "Tax": 25,
+      "Status": "Completed",
+      "ProcessingTime": "00:09:20",
+      "PaymentMethod": "Card",
+      "CustomerId": 12,
+      "RefundAmount": 0,
+      "Items": [
+        {
+          "ItemName": "South Indian Meal",
+          "Quantity": 2,
+          "Revenue": 980
+        }
+      ]
+    },
+    {
+      "Id": 80,
+      "Date": "2026-02-19T19:05:00",
+      "TotalAmount": 2100,
+      "NetAmount": 1980,
+      "Discount": 120,
+      "Tax": 60,
+      "Status": "Completed",
+      "ProcessingTime": "00:15:10",
+      "PaymentMethod": "Digital",
+      "CustomerId": 13,
+      "RefundAmount": 0,
+      "Items": [
+        {
+          "ItemName": "Seafood Combo",
+          "Quantity": 2,
+          "Revenue": 2100
+        }
+      ]
+    },
+    {
+      "Id": 81,
+      "Date": "2026-02-20T20:50:00",
+      "TotalAmount": 3500,
+      "NetAmount": 3300,
+      "Discount": 200,
+      "Tax": 90,
+      "Status": "Completed",
+      "ProcessingTime": "00:20:25",
+      "PaymentMethod": "Card",
+      "CustomerId": 14,
+      "RefundAmount": 0,
+      "Items": [
+        {
+          "ItemName": "Family Feast Deluxe",
+          "Quantity": 1,
+          "Revenue": 3500
+        }
+      ]
+    },
+    {
+      "Id": 82,
+      "Date": "2026-02-21T13:25:00",
+      "TotalAmount": 760,
+      "NetAmount": 720,
+      "Discount": 40,
+      "Tax": 20,
+      "Status": "Completed",
+      "ProcessingTime": "00:07:45",
+      "PaymentMethod": "Cash",
+      "CustomerId": 15,
+      "RefundAmount": 0,
+      "Items": [
+        {
+          "ItemName": "Mini Thali",
+          "Quantity": 2,
+          "Revenue": 760
+        }
+      ]
+    },
+    {
+      "Id": 83,
+      "Date": "2026-02-22T18:30:00",
+      "TotalAmount": 1900,
+      "NetAmount": 1800,
+      "Discount": 100,
+      "Tax": 50,
+      "Status": "Completed",
+      "ProcessingTime": "00:13:30",
+      "PaymentMethod": "UPI",
+      "CustomerId": 16,
+      "RefundAmount": 0,
+      "Items": [
+        {
+          "ItemName": "Italian Combo",
+          "Quantity": 2,
+          "Revenue": 1900
+        }
+      ]
+    },
+    {
+      "Id": 84,
+      "Date": "2026-02-23T19:15:00",
+      "TotalAmount": 1120,
+      "NetAmount": 1050,
+      "Discount": 70,
+      "Tax": 30,
+      "Status": "Completed",
+      "ProcessingTime": "00:10:25",
+      "PaymentMethod": "Digital",
+      "CustomerId": 17,
+      "RefundAmount": 0,
+      "Items": [
+        {
+          "ItemName": "Mexican Meal",
+          "Quantity": 2,
+          "Revenue": 1120
+        }
+      ]
+    },
+    {
+      "Id": 85,
+      "Date": "2026-02-24T20:40:00",
+      "TotalAmount": 980,
+      "NetAmount": 930,
+      "Discount": 50,
+      "Tax": 25,
+      "Status": "Cancelled",
+      "ProcessingTime": "00:08:10",
+      "PaymentMethod": "Cash",
+      "CustomerId": 18,
+      "RefundAmount": 980,
+      "Items": [
+        {
+          "ItemName": "Snack Combo",
+          "Quantity": 4,
+          "Revenue": 980
+        }
+      ]
+    },
+    {
+      "Id": 86,
+      "Date": "2026-02-24T21:30:00",
+      "TotalAmount": 2450,
+      "NetAmount": 2300,
+      "Discount": 150,
+      "Tax": 70,
+      "Status": "Completed",
+      "ProcessingTime": "00:16:00",
+      "PaymentMethod": "Card",
+      "CustomerId": 19,
+      "RefundAmount": 0,
+      "Items": [
+        {
+          "ItemName": "Chef Special Platter",
+          "Quantity": 1,
+          "Revenue": 2450
+        }
+      ]
+    },
+    {
+      "Id": 87,
+      "Date": "2026-02-25T12:15:00",
+      "TotalAmount": 690,
+      "NetAmount": 660,
+      "Discount": 30,
+      "Tax": 15,
+      "Status": "Completed",
+      "ProcessingTime": "00:06:55",
+      "PaymentMethod": "UPI",
+      "CustomerId": 20,
+      "RefundAmount": 0,
+      "Items": [
+        {
+          "ItemName": "Lunch Box",
+          "Quantity": 2,
+          "Revenue": 690
+        }
+      ]
+    },
+    {
+      "Id": 88,
+      "Date": "2026-02-25T19:50:00",
+      "TotalAmount": 1680,
+      "NetAmount": 1580,
+      "Discount": 100,
+      "Tax": 45,
+      "Status": "Completed",
+      "ProcessingTime": "00:12:20",
+      "PaymentMethod": "Digital",
+      "CustomerId": 1,
+      "RefundAmount": 0,
+      "Items": [
+        {
+          "ItemName": "Dinner Combo",
+          "Quantity": 2,
+          "Revenue": 1680
+        }
+      ]
+    },
+    {
+      "Id": 89,
+      "Date": "2026-02-16T11:10:00",
+      "TotalAmount": 480,
+      "NetAmount": 460,
+      "Discount": 20,
+      "Tax": 10,
+      "Status": "Completed",
+      "ProcessingTime": "00:05:10",
+      "PaymentMethod": "Cash",
+      "CustomerId": 2,
+      "RefundAmount": 0,
+      "Items": [
+        {
+          "ItemName": "Breakfast Combo",
+          "Quantity": 2,
+          "Revenue": 480
+        }
+      ]
+    },
+    {
+      "Id": 90,
+      "Date": "2026-02-18T20:05:00",
+      "TotalAmount": 1320,
+      "NetAmount": 1250,
+      "Discount": 70,
+      "Tax": 35,
+      "Status": "Refunded",
+      "ProcessingTime": "00:11:40",
+      "PaymentMethod": "Card",
+      "CustomerId": 3,
+      "RefundAmount": 300,
+      "Items": [
+        {
+          "ItemName": "Grill Combo",
+          "Quantity": 2,
+          "Revenue": 1320
+        }
+      ]
+    },
+    {
+      "Id": 91,
+      "Date": "2026-02-19T13:30:00",
+      "TotalAmount": 890,
+      "NetAmount": 840,
+      "Discount": 50,
+      "Tax": 20,
+      "Status": "Completed",
+      "ProcessingTime": "00:09:00",
+      "PaymentMethod": "UPI",
+      "CustomerId": 4,
+      "RefundAmount": 0,
+      "Items": [
+        {
+          "ItemName": "Veg Deluxe Meal",
+          "Quantity": 2,
+          "Revenue": 890
+        }
+      ]
+    },
+    {
+      "Id": 92,
+      "Date": "2026-02-22T21:20:00",
+      "TotalAmount": 2250,
+      "NetAmount": 2100,
+      "Discount": 150,
+      "Tax": 60,
+      "Status": "Completed",
+      "ProcessingTime": "00:15:25",
+      "PaymentMethod": "Card",
+      "CustomerId": 5,
+      "RefundAmount": 0,
+      "Items": [
+        {
+          "ItemName": "Weekend Special Combo",
+          "Quantity": 2,
+          "Revenue": 2250
+        }
+      ]
+    },
+    {
+      "Id": 201,
+      "Date": "2026-01-01T13:05:00",
+      "TotalAmount": 1200,
+      "NetAmount": 1150,
+      "Discount": 80,
+      "Tax": 30,
+      "Status": "Completed",
+      "ProcessingTime": "00:09:20",
+      "PaymentMethod": "Cash",
+      "CustomerId": 11,
+      "RefundAmount": 0,
+      "Items": [
+        {
+          "ItemName": "Veg Thali",
+          "Quantity": 2,
+          "Revenue": 900
+        },
+        {
+          "ItemName": "Lassi",
+          "Quantity": 2,
+          "Revenue": 300
+        }
+      ]
+    },
+    {
+      "Id": 202,
+      "Date": "2026-01-02T19:10:00",
+      "TotalAmount": 1450,
+      "NetAmount": 1380,
+      "Discount": 100,
+      "Tax": 30,
+      "Status": "Completed",
+      "ProcessingTime": "00:11:15",
+      "PaymentMethod": "UPI",
+      "CustomerId": 12,
+      "RefundAmount": 0,
+      "Items": [
+        {
+          "ItemName": "Paneer Tikka",
+          "Quantity": 2,
+          "Revenue": 900
+        },
+        {
+          "ItemName": "Butter Naan",
+          "Quantity": 4,
+          "Revenue": 550
+        }
+      ]
+    },
+    {
+      "Id": 203,
+      "Date": "2026-01-03T20:25:00",
+      "TotalAmount": 980,
+      "NetAmount": 930,
+      "Discount": 40,
+      "Tax": 10,
+      "Status": "Completed",
+      "ProcessingTime": "00:08:45",
+      "PaymentMethod": "Card",
+      "CustomerId": 13,
+      "RefundAmount": 0,
+      "Items": [
+        {
+          "ItemName": "Veg Fried Rice",
+          "Quantity": 2,
+          "Revenue": 700
+        },
+        {
+          "ItemName": "Manchurian",
+          "Quantity": 1,
+          "Revenue": 280
+        }
+      ]
+    },
+    {
+      "Id": 204,
+      "Date": "2026-01-04T14:40:00",
+      "TotalAmount": 1600,
+      "NetAmount": 1500,
+      "Discount": 120,
+      "Tax": 20,
+      "Status": "Completed",
+      "ProcessingTime": "00:12:10",
+      "PaymentMethod": "Digital",
+      "CustomerId": 14,
+      "RefundAmount": 0,
+      "Items": [
+        {
+          "ItemName": "Family Thali",
+          "Quantity": 2,
+          "Revenue": 1300
+        },
+        {
+          "ItemName": "Ice Cream",
+          "Quantity": 2,
+          "Revenue": 300
+        }
+      ]
+    },
+    {
+      "Id": 205,
+      "Date": "2026-01-05T18:15:00",
+      "TotalAmount": 870,
+      "NetAmount": 830,
+      "Discount": 30,
+      "Tax": 10,
+      "Status": "Completed",
+      "ProcessingTime": "00:07:55",
+      "PaymentMethod": "Cash",
+      "CustomerId": 15,
+      "RefundAmount": 0,
+      "Items": [
+        {
+          "ItemName": "Masala Dosa",
+          "Quantity": 3,
+          "Revenue": 600
+        },
+        {
+          "ItemName": "Coffee",
+          "Quantity": 2,
+          "Revenue": 270
+        }
+      ]
+    },
+    {
+      "Id": 206,
+      "Date": "2026-01-06T13:20:00",
+      "TotalAmount": 1750,
+      "NetAmount": 1650,
+      "Discount": 120,
+      "Tax": 40,
+      "Status": "Completed",
+      "ProcessingTime": "00:10:30",
+      "PaymentMethod": "UPI",
+      "CustomerId": 16,
+      "RefundAmount": 0,
+      "Items": [
+        {
+          "ItemName": "Sizzler",
+          "Quantity": 2,
+          "Revenue": 1300
+        },
+        {
+          "ItemName": "Mocktail",
+          "Quantity": 2,
+          "Revenue": 450
+        }
+      ]
+    },
+    {
+      "Id": 207,
+      "Date": "2026-01-07T20:05:00",
+      "TotalAmount": 1050,
+      "NetAmount": 990,
+      "Discount": 50,
+      "Tax": 10,
+      "Status": "Completed",
+      "ProcessingTime": "00:08:20",
+      "PaymentMethod": "Card",
+      "CustomerId": 17,
+      "RefundAmount": 0,
+      "Items": [
+        {
+          "ItemName": "Veg Burger",
+          "Quantity": 3,
+          "Revenue": 750
+        },
+        {
+          "ItemName": "Fries",
+          "Quantity": 2,
+          "Revenue": 300
+        }
+      ]
+    },
+    {
+      "Id": 208,
+      "Date": "2026-01-08T19:45:00",
+      "TotalAmount": 2100,
+      "NetAmount": 2000,
+      "Discount": 150,
+      "Tax": 50,
+      "Status": "Completed",
+      "ProcessingTime": "00:13:00",
+      "PaymentMethod": "Digital",
+      "CustomerId": 18,
+      "RefundAmount": 0,
+      "Items": [
+        {
+          "ItemName": "Family Combo",
+          "Quantity": 1,
+          "Revenue": 1800
+        },
+        {
+          "ItemName": "Dessert",
+          "Quantity": 2,
+          "Revenue": 300
+        }
+      ]
+    },
+    {
+      "Id": 209,
+      "Date": "2026-01-09T12:30:00",
+      "TotalAmount": 920,
+      "NetAmount": 880,
+      "Discount": 30,
+      "Tax": 10,
+      "Status": "Completed",
+      "ProcessingTime": "00:07:40",
+      "PaymentMethod": "Cash",
+      "CustomerId": 19,
+      "RefundAmount": 0,
+      "Items": [
+        {
+          "ItemName": "Pav Bhaji",
+          "Quantity": 3,
+          "Revenue": 750
+        },
+        {
+          "ItemName": "Cold Drink",
+          "Quantity": 1,
+          "Revenue": 170
+        }
+      ]
+    },
+    {
+      "Id": 210,
+      "Date": "2026-01-10T18:10:00",
+      "TotalAmount": 1350,
+      "NetAmount": 1280,
+      "Discount": 60,
+      "Tax": 10,
+      "Status": "Completed",
+      "ProcessingTime": "00:09:50",
+      "PaymentMethod": "UPI",
+      "CustomerId": 20,
+      "RefundAmount": 0,
+      "Items": [
+        {
+          "ItemName": "Paneer Butter Masala",
+          "Quantity": 2,
+          "Revenue": 900
+        },
+        {
+          "ItemName": "Jeera Rice",
+          "Quantity": 2,
+          "Revenue": 450
+        }
+      ]
+    },
+    {
+      "Id": 211,
+      "Date": "2026-01-11T13:25:00",
+      "TotalAmount": 1550,
+      "NetAmount": 1450,
+      "Discount": 120,
+      "Tax": 20,
+      "Status": "Completed",
+      "ProcessingTime": "00:10:10",
+      "PaymentMethod": "Card",
+      "CustomerId": 19,
+      "RefundAmount": 0,
+      "Items": [
+        {
+          "ItemName": "Dal Makhani",
+          "Quantity": 2,
+          "Revenue": 800
+        },
+        {
+          "ItemName": "Butter Naan",
+          "Quantity": 4,
+          "Revenue": 500
+        },
+        {
+          "ItemName": "Sweet Lassi",
+          "Quantity": 2,
+          "Revenue": 250
+        }
+      ]
+    },
+    {
+      "Id": 212,
+      "Date": "2026-01-12T20:00:00",
+      "TotalAmount": 890,
+      "NetAmount": 850,
+      "Discount": 30,
+      "Tax": 10,
+      "Status": "Cancelled",
+      "ProcessingTime": "00:06:45",
+      "PaymentMethod": "Cash",
+      "CustomerId": 1,
+      "RefundAmount": 850,
+      "Items": [
+        {
+          "ItemName": "Veg Wrap",
+          "Quantity": 3,
+          "Revenue": 600
+        },
+        {
+          "ItemName": "Fries",
+          "Quantity": 2,
+          "Revenue": 290
+        }
+      ]
+    },
+    {
+      "Id": 213,
+      "Date": "2026-01-13T18:30:00",
+      "TotalAmount": 2300,
+      "NetAmount": 2150,
+      "Discount": 120,
+      "Tax": 30,
+      "Status": "Completed",
+      "ProcessingTime": "00:14:20",
+      "PaymentMethod": "Digital",
+      "CustomerId": 4,
+      "RefundAmount": 0,
+      "Items": [
+        {
+          "ItemName": "Non-Veg Platter",
+          "Quantity": 2,
+          "Revenue": 1800
+        },
+        {
+          "ItemName": "Cold Coffee",
+          "Quantity": 2,
+          "Revenue": 500
+        }
+      ]
+    },
+    {
+      "Id": 214,
+      "Date": "2026-01-14T14:05:00",
+      "TotalAmount": 760,
+      "NetAmount": 720,
+      "Discount": 25,
+      "Tax": 5,
+      "Status": "Completed",
+      "ProcessingTime": "00:07:10",
+      "PaymentMethod": "UPI",
+      "CustomerId": 5,
+      "RefundAmount": 0,
+      "Items": [
+        {
+          "ItemName": "Idli Sambhar",
+          "Quantity": 4,
+          "Revenue": 500
+        },
+        {
+          "ItemName": "Tea",
+          "Quantity": 4,
+          "Revenue": 260
+        }
+      ]
+    },
+    {
+      "Id": 215,
+      "Date": "2026-01-15T19:55:00",
+      "TotalAmount": 1820,
+      "NetAmount": 1700,
+      "Discount": 100,
+      "Tax": 20,
+      "Status": "Refunded",
+      "ProcessingTime": "00:12:35",
+      "PaymentMethod": "Card",
+      "CustomerId": 20,
+      "RefundAmount": 400,
+      "Items": [
+        {
+          "ItemName": "Pizza Medium",
+          "Quantity": 2,
+          "Revenue": 1200
+        },
+        {
+          "ItemName": "Garlic Bread",
+          "Quantity": 2,
+          "Revenue": 620
+        }
+      ]
+    },
+    {
+      "Id": 216,
+      "Date": "2026-01-16T12:40:00",
+      "TotalAmount": 1320,
+      "NetAmount": 1250,
+      "Discount": 60,
+      "Tax": 10,
+      "Status": "Completed",
+      "ProcessingTime": "00:09:05",
+      "PaymentMethod": "Cash",
+      "CustomerId": 15,
+      "RefundAmount": 0,
+      "Items": [
+        {
+          "ItemName": "Chole Bhature",
+          "Quantity": 3,
+          "Revenue": 900
+        },
+        {
+          "ItemName": "Sweet",
+          "Quantity": 2,
+          "Revenue": 420
+        }
+      ]
+    },
+    {
+      "Id": 217,
+      "Date": "2026-01-17T21:10:00",
+      "TotalAmount": 2600,
+      "NetAmount": 2450,
+      "Discount": 120,
+      "Tax": 30,
+      "Status": "Completed",
+      "ProcessingTime": "00:15:00",
+      "PaymentMethod": "Digital",
+      "CustomerId": 17,
+      "RefundAmount": 0,
+      "Items": [
+        {
+          "ItemName": "Premium Thali",
+          "Quantity": 2,
+          "Revenue": 2000
+        },
+        {
+          "ItemName": "Dessert Combo",
+          "Quantity": 2,
+          "Revenue": 600
+        }
+      ]
+    },
+    {
+      "Id": 218,
+      "Date": "2026-01-18T15:25:00",
+      "TotalAmount": 950,
+      "NetAmount": 900,
+      "Discount": 40,
+      "Tax": 10,
+      "Status": "Completed",
+      "ProcessingTime": "00:08:00",
+      "PaymentMethod": "UPI",
+      "CustomerId": 8,
+      "RefundAmount": 0,
+      "Items": [
+        {
+          "ItemName": "Veg Sandwich",
+          "Quantity": 4,
+          "Revenue": 700
+        },
+        {
+          "ItemName": "Juice",
+          "Quantity": 2,
+          "Revenue": 250
+        }
+      ]
+    },
+    {
+      "Id": 219,
+      "Date": "2026-01-19T18:45:00",
+      "TotalAmount": 1750,
+      "NetAmount": 1650,
+      "Discount": 80,
+      "Tax": 20,
+      "Status": "Completed",
+      "ProcessingTime": "00:11:50",
+      "PaymentMethod": "Card",
+      "CustomerId": 9,
+      "RefundAmount": 0,
+      "Items": [
+        {
+          "ItemName": "Hyderabadi Biryani",
+          "Quantity": 2,
+          "Revenue": 1400
+        },
+        {
+          "ItemName": "Raita",
+          "Quantity": 2,
+          "Revenue": 350
+        }
+      ]
+    },
+    {
+      "Id": 220,
+      "Date": "2026-01-20T13:15:00",
+      "TotalAmount": 1020,
+      "NetAmount": 980,
+      "Discount": 30,
+      "Tax": 10,
+      "Status": "Completed",
+      "ProcessingTime": "00:07:30",
+      "PaymentMethod": "Cash",
+      "CustomerId": 10,
+      "RefundAmount": 0,
+      "Items": [
+        {
+          "ItemName": "Rajma Chawal",
+          "Quantity": 3,
+          "Revenue": 750
+        },
+        {
+          "ItemName": "Papad",
+          "Quantity": 2,
+          "Revenue": 270
+        }
+      ]
+    }
+  ]
+}
