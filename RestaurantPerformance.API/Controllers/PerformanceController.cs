@@ -20,7 +20,7 @@ public class PerformanceController : ControllerBase
         _mlService = mlService;
     }
 
-    [HttpPost("get_outlet_performance")]
+    [HttpPost("get_outlet_performance_detail")]
     public async Task<PerformanceResponse> GetPerformance([FromBody] PerformanceRequest request)
     {
         if (request == null || request.OutletId <= 0)
